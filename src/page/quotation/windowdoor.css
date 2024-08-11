@@ -1,0 +1,390 @@
+.window_door_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 90vh;
+  row-gap: 1vw;
+  width: 100vw;
+}
+.window_door_button {
+  font-size: 1.6vw;
+  gap: 1vw;
+  display: flex;
+  align-items: center;
+  height: 4vw;
+}
+.mian_content_container_window_door {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  height: 30vw;
+  padding: 1vw;
+  row-gap: 1vw;
+  overflow-y: scroll;
+  background-color: #fff;
+}
+.mian_content_container_window_door::-webkit-scrollbar {
+  width: 0;
+}
+.main_content_window_door {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vw;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 2px 20px 4px;
+  padding: 2vw;
+  border-radius: 1vw;
+  height: 18vw;
+  width: 20vw;
+  background-color: #c2bfbf;
+ 
+}
+.window_door_button button {
+  width: 3vw;
+  height: 2.5vw;
+  border-radius: 0.5vw;
+  border: none;
+  outline: none;
+  background-color: #dbd9d9;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.5vw;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.next_buttton_window_door {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+.next_buttton_window_door button {
+  width: 7vw;
+  height: 2.5vw;
+  border-radius: 0.5vw;
+  border: none;
+  outline: none;
+  background-color: #dbd9d9;
+  font-weight: bold;
+  cursor: pointer;
+  color: #000000;
+  font-size: 1vw;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.main_content_window_door select {
+  width: 20vw;
+  height: 2.5vw;
+  border: none;
+  transition: border-color 0.3s;
+  outline: none;
+  background: none;
+  font-size: 1vw;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+    
+}
+.main_content_window_door input {
+  box-shadow: 0 0px 0px 1px rgba(145, 141, 141, 0.5);
+  border-radius: 3px;
+  font-size: 0.9vw;
+  background-color: #ffffff;
+  padding-left: 0.2vw;
+  font-size: 1vw;
+  width: 20vw;
+  height: 6vh;
+  border: 0.001px solid red;
+  border-color: #b1afaf;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+  animation: 3s;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+.save_pdf_button_quotation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2vw;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+  padding: 1.5vw;
+  border-radius: 1vw;
+  height: 8vw;
+  background-color: #fff;
+}
+.save_pdf_button_quotation button {
+  width: 7vw;
+  height: 2.5vw;
+  border-radius: 0.5vw;
+  border: none;
+  outline: none;
+  background-color: #dbd9d9;
+  font-weight: bold;
+  cursor: pointer;
+  color: #000000;
+  font-size: 1vw;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+button {
+  transform: scale(0.9);
+}
+
+.vat_installation_quotation {
+  display: flex;
+  column-gap: 2vw;
+}
+.vat_div {
+  padding: 16px;
+  border-radius: 0.5vw;
+  border: none;
+  outline: none;
+  background-color: #aca6a6;
+  cursor: pointer;
+  color: #000000;
+  font-size: 1vw;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.Installation_div {
+  padding: 3px;
+  border-radius: 0.5vw;
+  border: none;
+  outline: none;
+  text-align: center;
+  background-color: #aca6a6;
+  cursor: pointer;
+  color: #080808;
+  padding: 16px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.save_pdf_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 3vw;
+}
+.description_quotation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 0.2vw;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 2px 20px 4px;
+  padding: 1vw;
+  width: 19vw;
+  border-radius: 1vw;
+  height: 15vw;
+  background-color: #c2bfbf;
+}
+.save_section_quotation {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vw;
+  border-radius: 1vw;
+  height: 50vw;
+  width: 92vw;
+}
+.main_content_quotation {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  /* align-items: center; */
+  justify-content: center;
+  row-gap: 0.5vw;
+  column-gap: 1vw;
+  height: 60vh;
+  padding: 1vw;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 2px 20px 4px;
+  border-radius: 1vw;
+  overflow-y: scroll;
+  width: 90vw;
+  background-color: #fff;
+}
+.disabled {
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 768px) {
+  .window_door_button {
+    font-size: 20px;
+    height: 4vw;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+  }
+  .window_door_button button {
+    width: 8vw;
+    height: 6vw;
+    font-size: 18px;
+  }
+  .next_buttton_window_door button {
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+  }
+  .mian_content_container_window_door {
+    height: 86%;
+    width: 90%;
+    padding: 1vw;
+    row-gap: 3vw;
+    overflow-y: scroll;
+  }
+  .main_content_window_door {
+    height: 40%;
+    width: 90%;
+    margin-left: 2.4vw;
+  }
+  .main_content_window_door select {
+    width: 100%;
+    font-size: 16px;
+    height: 6vw;
+  }
+  .main_content_window_door input {
+    width: 98%;
+    height: 6vw;
+    font-size: 16px;
+  }
+  .save_section_quotation {
+    height: 90vh;
+    width: 92vw;
+    row-gap: 3vw;
+  }
+  .main_content_quotation {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vw;
+    column-gap: 1vw;
+    height: 70vh;
+    margin-right: 20px;
+    overflow-y: scroll;
+    width: 98%;
+  }
+  .description_quotation {
+    width: 80%;
+    height: 35%;
+    font-size: 15px;
+    margin-left: 15px;
+    padding: 16px;
+  }
+  .save_pdf_button_quotation {
+    width: 98%;
+    height: 140px;
+    margin-top: 20px;
+    row-gap: 20px;
+  }
+
+  .vat_div {
+    font-size: 14px;
+  }
+  .Installation_div {
+    font-size: 14px;
+  }
+  .save_pdf_button_quotation button {
+    width: 70px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .vat_installation_quotation {
+    row-gap: 10px;
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-width: 1300px) {
+  .window_door_button {
+    font-size: 20px;
+    height: 4vw;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+  }
+  .window_door_button button {
+    width: 8vw;
+    height: 6vw;
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+  }
+  .next_buttton_window_door button {
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+  }
+  .mian_content_container_window_door {
+    height: 86%;
+    width: 90%;
+    padding: 1vw;
+    row-gap: 3vw;
+    overflow-y: scroll;
+  }
+  .main_content_window_door {
+    height: 30%;
+    width: 90%;
+    margin-left: 2.4vw;
+  }
+  .main_content_window_door select {
+    width: 100%;
+    font-size: 16px;
+    height: 6vw;
+  }
+  .main_content_window_door input {
+    width: 98%;
+    height: 6vw;
+    font-size: 16px;
+  }
+  .save_section_quotation {
+    height: 90vh;
+    width: 92vw;
+    row-gap: 3vw;
+  }
+  .main_content_quotation {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vw;
+    column-gap: 1vw;
+    height: 70vh;
+    margin-right: 20px;
+    overflow-y: scroll;
+    width: 98%;
+    display: flex;
+    align-items: center;
+  }
+  .description_quotation {
+    width: 40%;
+    height: 35%;
+    font-size: 25px;
+    margin-left: 18px;
+    padding: 16px;
+  }
+  .save_pdf_button_quotation {
+    width: 98%;
+    height: 140px;
+    margin-top: 20px;
+    row-gap: 20px;
+  }
+
+  .vat_div {
+    font-size: 24px;
+  }
+  .Installation_div {
+    font-size: 14px;
+  }
+  .save_pdf_button_quotation button {
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .vat_installation_quotation {
+    row-gap: 10px;
+  }
+}
